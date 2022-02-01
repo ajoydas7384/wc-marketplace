@@ -2,6 +2,12 @@
 /*font-family: 'Open Sans', sans-serif;*/
 
 
+
+.wc-marketplace {
+	overflow-x: hidden;
+}
+
+
 img {
 	width: 100%;
 	height: auto;
@@ -51,8 +57,20 @@ button {
 	background: #488bd2;
 	border-radius: 5px;
 	border: none;
-	/*margin: 0;*/
 }
+
+.blue-btn:hover {
+	color: #488bd2;
+	background: white;
+	border: 1px solid #488bd2;
+	transition: 0.5s;
+}
+
+
+.blue-btn:hover i {
+	color: #488bd2;
+}
+
 
 .text-left {
 	text-align: left;
@@ -89,7 +107,7 @@ button {
 	margin-right: 10px;
 }
 
-.nav li {
+.marketplace-nav .nav li {
 	margin: 0;
 }
 
@@ -180,6 +198,13 @@ button {
     border: none;
     padding: 12px 14px;
     font-size: 16px;
+    border: 1px solid #fb7169;
+}
+
+.started-btn-one:hover {
+	color: #fb7169;
+	background: white;
+	transition: 0.5s;
 }
 
 .started-btn-two {
@@ -187,11 +212,19 @@ button {
     font-size: 20px;
 }
 
+
 .transparent-btn {
 	border: none;
 	background: transparent;
 	font-size: 20px;
 	padding: 15px
+}
+
+.transparent-btn:hover {
+	background: gray;
+	border-radius: 5px;
+	color: white;
+	transition: 0.5s;
 }
 
 .transparent-btn-two {
@@ -201,7 +234,13 @@ button {
 	font-weight: 600;
 	color: #444444;
 	font-size: 20px;
-	padding: 14px;
+	padding: 15px;
+}
+
+.transparent-btn-two:hover {
+	background: #37343a;
+	color: white;
+	transition: 0.5s;
 }
 
 .available {
@@ -264,13 +303,7 @@ button {
 	border-bottom: 1px solid lightgray;
 }
 
-/*.header-navbar ul li {
-	list-style: none;
-	margin-left: 0;
-	position: relative;
-	color: red
-}
-*/
+
 .header-navbar ul li i {
 	margin-left: 5px;
 	font-size: 12px;
@@ -313,7 +346,7 @@ button {
 }
 
 .header-navbar ul ul li a {
-	font-size: 15px;
+	font-size: 12px;
 	margin-left: 10px;
 }
 
@@ -402,27 +435,6 @@ button {
     margin-top: 14px;
 }
 
-/*.nav-link img {
-	padding-right: 10px;
-}
-
-.nav-link {
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	color: #37343a;
-}*/
-
-/*.nav {
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
-
-.nav li {
-	margin: 0;
-	margin-bottom: 5px;
-	padding: 0 14px;
-}*/
 
 .marketplace-area .nav li:hover {
 	border-bottom: 2px solid #488bd2;
@@ -468,7 +480,6 @@ button {
 .marketplace-area {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	/*............................................*/
 }
 
 .marketplace-text {
@@ -477,19 +488,6 @@ button {
     border-radius: 10px;
    /* padding-top: 0;*/
 }
-
-/*.......................................*/
-
-/*.marketplace-text p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-}*/
-
-/*.marketplace-text h4 {
-	margin-bottom: 15px;
-}*/
-
-/*...............................................*/
 
 
 .live-example {
@@ -555,13 +553,17 @@ button {
 }
 
 
+.client-slider {
+	float: right;
+}
+
 .client-slider ul li {
 	display: block;
 }
 
 .client-slider ul {
 	float: right;
-	margin-top: -130px;
+	margin-top: -300px;
 }
 
 .client-slider ul li img {
@@ -626,15 +628,20 @@ button {
 	position: relative;
 }
 
+.blog-time {
+	padding-left: 10px;
+}
+
 .blog-time:before {
 	content: "";
 	height: 4px;
 	width: 4px;
 	position: absolute;
 	background: gray;
-	color: red;
 	border-radius: 50%;
 	top: 50%;
+	margin-top: -2px;
+	margin-left: -10px;
 }
 
 .blog-content-heading {
@@ -748,7 +755,7 @@ button {
 	float: left;
 	display: block;
 	color: #000;
-	width: calc(100% - 52px);
+	/*width: calc(100% - 52px);*/
 	text-align: left;
 }
 
@@ -874,4 +881,12 @@ tbody td button {
 
 .marketplace-nav .nav-link {
 	color: black;
+}
+
+
+
+
+
+input[type=email]:focus {
+	border: 1px solid red;
 }

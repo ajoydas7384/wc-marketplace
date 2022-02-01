@@ -1,0 +1,250 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.heading .navbar {
+		float: right;
+	}
+
+	.banner-title {
+	    font-size: 30px;
+	    margin-top: 30px;
+	    margin-bottom: 25px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 700;
+	}
+
+	.started-btn-one {
+	    padding: 8px 8px;
+	    font-size: 12px;
+	}
+
+	.started-btn-two {
+	    padding: 10px;
+	    font-size: 15px;
+	}
+
+
+	.transparent-btn {
+	    padding: 10px;
+	    font-size: 15px;
+	}
+
+	.customizable-area {
+	    background: #fbfbfb;
+	    padding-top: 40px;
+	    padding-bottom: 40px;
+	}
+
+	.section-title {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+
+	.section-subtitle {
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	.text-heading {
+		font-size: 20px;
+    	margin-bottom: 15px;
+	}
+
+	.customizable-solution {
+	    margin-bottom: 25px;
+	}
+
+	.achivements-area h4 {
+	    padding-top: 0;
+	}
+
+	.video-play-btn {
+		height: 400px;
+    	background-size: contain;
+	}
+
+	.video-play-btn p:after {
+		width: 65px;
+	}
+
+	.customizable-text {
+		padding-bottom: 0;
+	}
+
+	.transparent-btn-two {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.marketplace-area {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.marketplace-nav .nav li {
+		margin: 10px 0;
+	}
+
+	.stats-item {
+		margin-left: 5px;
+		padding: 6px;
+	}
+
+	.stats-icon {
+		padding-top: 2px;
+	}
+
+	.stats-icon img {
+	    width: 30px;
+	    height: 30px;
+	    margin-right: 8px;
+	}
+
+	.stats-number {
+		font-size: 12px;
+	}
+
+	.stats-name {
+		font-size: 10px;
+	}
+
+	.testimonial-area {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.client-slider ul {
+		float: none;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.client-slider ul li {
+		display: inline-block;
+	}
+
+	.footer-area h5 {
+    	margin-bottom: 15px;
+    	margin-top: 20px;
+	}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.banner-title {
+		font-size: 40px;
+	}
+
+
+	.heading .navbar {
+		float: right;
+	}
+
+	.video-play-btn {
+    	height: 450px;
+    	background-size: contain;
+	}
+
+	.video-play-btn p {
+		left: 0%;
+	}
+
+	.customizable-text {
+		padding-bottom: 0;
+	}
+
+	.customizable-area {
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+
+
+	.marketplace-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+	.marketplace-nav .nav-img {
+		width: 15px;
+		height: 15px;
+		margin-right: 12px;
+		margin-bottom: 5px;
+	}
+
+	.online-market {
+		margin-top: 10px;
+	}
+
+	.testimonial-area .stats-item {
+		padding: 8px 10px;
+	}
+
+	.testimonial-area .stats-wrapper .stats-icon img {
+		width: 30px;
+		height: 30px;
+		margin-right: 10px;
+	}
+
+	.testimonial-area .stats-wrapper .stats-number {
+		font-size: 14px
+	}
+
+	.testimonial-area .stats-wrapper .stats-name {
+		font-size: 12px;
+	}
+
+	.client-slider ul {
+		text-align: center;
+		/*float: none;*/
+		margin-top: 0;
+	}
+
+	.client-slider ul li {
+		display: inline-block;
+	}
+
+	.testimonial-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.featured-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.right-marketplace {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.started-btn-two {
+    	padding: 10px;
+    	font-size: 15px;
+	}
+
+	.transparent-btn-two {
+    	font-size: 15px;
+    	padding: 10px;
+	}
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+	
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+
+
+
+/*// Extra large devices (large desktops, 1200px)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)
+
+
+/*//Extra Extra large deivces (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px)
